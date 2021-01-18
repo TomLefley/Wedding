@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(110, 129, 111);
+}
+
+.content {
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: Baskerville;
+    letter-spacing: 0.06em;
+    color: #444;
+    background-color: white;
+    padding: 40px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+
+.topnav a.right {
+    float: right;
+    font-weight: bold;
+}
+
+.topnav a {
+    color: #444;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 1px;
+    outline-width: 1px;
+    outline-offset: 0px;
+    outline-color: rgb(248, 224, 217);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    float: left;
+}
+
+div.topnav {
+    overflow: hidden;
+}
+
+.topnav a:hover {
+    outline-style: solid;
+}
+
+.topnav a:active {
+    outline-style: dashed;
+}
+
+.topnav a.active {
+    text-decoration: underline;
+}
