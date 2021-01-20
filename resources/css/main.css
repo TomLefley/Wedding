@@ -22,12 +22,11 @@ h3 {
     letter-spacing: 0.1em;
 }
 
-.topnav a.right {
-    float: right;
-    font-weight: bold;
+.top-nav {
+    overflow: hidden;
 }
 
-.topnav a {
+.top-nav .nav-element {
     color: #444;
     text-align: center;
     padding: 14px 16px;
@@ -40,18 +39,30 @@ h3 {
     float: left;
 }
 
-div.topnav {
-    overflow: hidden;
+.top-nav .nav-element.right {
+    float: right;
+    font-weight: bold;
 }
 
-.topnav a:hover {
+.top-nav .nav-element.active {
+    text-decoration: underline;
+}
+
+.top-nav .nav-element:hover {
     outline-style: solid;
 }
 
-.topnav a:active {
-    outline-style: dashed;
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 }
-
-.topnav a.active {
-    text-decoration: underline;
+  
+.image-cropper  img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
 }
