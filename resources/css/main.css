@@ -53,16 +53,28 @@ h3 {
 }
 
 .image-cropper {
-    width: 100px;
-    height: 100px;
     position: relative;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 0%;
 }
   
 .image-cropper  img {
     display: inline;
     margin: 0 auto;
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+@media (min-width: 650px) {
+    .row {
+        grid-template-columns: 50% auto;
+    }
+}
+
+.column {
 }
