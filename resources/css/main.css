@@ -2,7 +2,7 @@ body {
     background-color: rgb(110, 129, 111);
 }
 
-.content {
+.page {
     margin: 40px auto;
     max-width: 650px;
     line-height: 1.6;
@@ -12,6 +12,23 @@ body {
     color: #444;
     background-color: white;
     padding: 40px;
+}
+
+.content a.link-clean:link,
+.content a.link-clean:visited,
+.content a.link-clean:hover,
+.content a.link-clean:active {
+    text-decoration: none;
+}
+
+.content a:link,
+.content a:visited {
+    color: #444;
+}
+
+.content a:hover,
+.content a:active {
+    color: rgb(248, 224, 217);
 }
 
 h1,
@@ -26,7 +43,7 @@ h3 {
     overflow: hidden;
 }
 
-.top-nav .nav-element {
+.top-nav a.nav-element {
     color: #444;
     text-align: center;
     padding: 14px 16px;
@@ -39,16 +56,16 @@ h3 {
     float: left;
 }
 
-.top-nav .nav-element.right {
+.top-nav a.nav-element.right {
     float: right;
     font-weight: bold;
 }
 
-.top-nav .nav-element.active {
+.top-nav a.nav-element.active {
     text-decoration: underline;
 }
 
-.top-nav .nav-element:hover {
+.top-nav a.nav-element:hover {
     outline-style: solid;
 }
 
@@ -82,4 +99,15 @@ iframe.map {
     height: 100%;
 
     border: 0;
+}
+
+div.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.centered > p {
+    width: 50%;
 }
