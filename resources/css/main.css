@@ -46,7 +46,7 @@ h3 {
 .top-nav a.nav-element {
     color: #444;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.8em 0.9em;
     margin: 1px;
     outline-width: 1px;
     outline-offset: 0px;
@@ -101,13 +101,15 @@ iframe.map {
     border: 0;
 }
 
-div.centered {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+div.stationary {
+    text-align: center;
 
-div.centered > p {
-    width: 50%;
+    max-width: 300px;
+    margin: auto;
+    padding: 1em;
+
+    outline-style: solid;
+    outline-width: 1px;
+    outline-offset: 0px;
+    outline-color: rgb(248, 224, 217);
 }
