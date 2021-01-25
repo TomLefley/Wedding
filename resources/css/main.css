@@ -92,15 +92,14 @@ footer {
 }
 
 
-.image-cropper {
-    position: relative;
-    overflow: hidden;
-    border-radius: 0%;
+.image-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
   
-.image-cropper  img {
-    display: inline;
-    margin: 0 auto;
+img {
     height: auto;
     width: 100%;
 }
