@@ -100,8 +100,9 @@ footer {
 }
   
 img {
+    margin: 0px auto;
     height: auto;
-    width: 100%;
+    max-width: 100%;
 }
 
 div.column-pair {
