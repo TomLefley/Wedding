@@ -123,10 +123,10 @@ iframe.map {
     border: 0;
 }
 
-div.stationary {
+div.stationary,
+div.stationary-card {
     text-align: center;
 
-    max-width: 18rem;
     margin: 2rem auto;
     padding: 1rem;
 
@@ -134,4 +134,8 @@ div.stationary {
     outline-width: 1px;
     outline-offset: 0px;
     outline-color: rgb(248, 224, 217);
+}
+
+div.stationary-card {
+    max-width: 18rem;
 }
