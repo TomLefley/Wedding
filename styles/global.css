@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(110, 129, 111);
+}
+
+a.link-clean:link,
+a.link-clean:visited,
+a.link-clean:hover,
+a.link-clean:active {
+    text-decoration: none;
+}

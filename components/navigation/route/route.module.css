@@ -1,0 +1,25 @@
+.route {
+    color: #444;
+    text-align: center;
+    padding: 1rem;
+    margin: 1px;
+    outline-width: 1px;
+    outline-offset: 0px;
+    outline-color: rgb(248, 224, 217);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    float: left;
+}
+
+.route:hover {
+    outline-style: solid;
+}
+
+.route.external {
+    float: right;
+    font-weight: bold;
+}
+
+.route.active {
+    text-decoration: underline;
+}
