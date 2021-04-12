@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import Item from '../components/stationery/item'
 import Layout from '../components/layout/layout'
 import Note from '../components/note/note'

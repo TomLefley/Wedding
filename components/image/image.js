@@ -13,6 +13,8 @@ export default function Image({ src, height, width, fit, alt }) {
                 layout="intrinsic"
                 objectFit={fit}
                 alt={alt}
+
+                className={styles.image}
             />
         </div>
     )

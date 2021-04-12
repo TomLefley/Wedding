@@ -1,7 +1,4 @@
-import Image from 'next/image'
-
 import Columns from '../components/columns/columns'
-import Item from '../components/stationery/item'
 import Layout from '../components/layout/layout'
 import Left from '../components/columns/left'
 import Note from '../components/note/note'
@@ -32,11 +29,9 @@ export default function Gifts() {
                     <Note>"Cancer Research UK pioneers life-saving research to bring forward the day when all cancers are cured."</Note>
                 </Left>
                 <Right>
-                    <div class="image-container">
-                        <Logo 
-                            src="/images/charities/cruk-logo.svg"
-                        />
-                    </div>
+                    <Logo 
+                        src="/images/charities/cruk-logo.svg"
+                    />
                 </Right>
 
                 <Left>
@@ -48,11 +43,9 @@ export default function Gifts() {
                     <Note>"We are working towards a brighter future for everyone with cystic fibrosis (CF) by funding cutting-edge research, driving up standards of care and supporting people with the condition and their loved ones every step of the way."</Note>
                 </Left>
                 <Right>
-                    <div class="image-container">
-                        <Logo 
-                            src="/images/charities/cystic_fibrosis_trust_logo.png"
-                        />
-                    </div>
+                    <Logo 
+                        src="/images/charities/cystic_fibrosis_trust_logo.png"
+                    />
                 </Right>
 
                 <Left>
@@ -64,11 +57,9 @@ export default function Gifts() {
                     <Note>"Wood Green is proud to be the pet charity that makes a difference to the lives of pets and people across the UK.  Our vision is of a world where all pets are well cared for in loving homes for life. To achieve this, we not only provide care for pets in need, but also help people be the best pet owners they can be."</Note>
                 </Left>
                 <Right>
-                    <div class="image-container">
-                        <Logo 
-                            src="/images/charities/wood_green_logo.png"
-                        />
-                    </div>
+                    <Logo 
+                        src="/images/charities/wood_green_logo.png"
+                    />
                 </Right>
             </Columns>
         </section>

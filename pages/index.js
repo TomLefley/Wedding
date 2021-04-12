@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import Layout from '../components/layout/layout'
 import Name from '../components/name/name'
 import Photo from '../components/image/photo'

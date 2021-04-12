@@ -6,7 +6,7 @@ export default function Photo({ src, alt }) {
     return (
         <Image
             src={src}
-            height="308"
+            height="154"
             width="308"
             fit="scale-down"
             alt={alt}
