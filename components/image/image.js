@@ -2,7 +2,7 @@ import NextImage from 'next/image'
 
 import styles from './image.module.css'
 
-export default function Image({ src, height, width, alt }) {
+export default function Image({ src, height, width, fit, alt }) {
     return (
         <div className={styles.container}>
             <NextImage
@@ -11,7 +11,7 @@ export default function Image({ src, height, width, alt }) {
                 height={height}
                 width={width}
                 layout="intrinsic"
-                objectFit="scale-down"
+                objectFit={fit}
                 alt={alt}
             />
         </div>

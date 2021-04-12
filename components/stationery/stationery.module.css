@@ -4,7 +4,7 @@
     vertical-align: middle;
 
     margin: 2rem auto;
-    padding: 1rem;
+    padding: 2rem;
 
     outline-style: solid;
     outline-width: 1px;
@@ -14,6 +14,7 @@
 
 .stationery.card {
     max-width: 18rem;
+    padding: 1rem;
 }
 
 .stationery.foliage {

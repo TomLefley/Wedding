@@ -14,13 +14,14 @@ export default function Gifts() {
     <Layout
         pageName="Gifts"
     >
-        <h1>Gifting</h1>
-        <section>
+        <Stationery>
+            <h1>Gifting</h1>
             <p>In 2021 we will have been in a relationship for twelve years, and will have lived together for four.</p>
             <p>While we greatly appreciate the thought, sentiment, and tradition which goes into wedding gifts, we feel as though there is nothing we can truly say that we need.</p>
             <p>Instead, we ask that those who would like to send a gift consider doing so by way of a donation to charity or similar.</p>
             <p>Listed below are some example charities which are close to our hearts.</p>
-
+        </Stationery>
+        <section>
             <Columns>
                 <Left>
                     <a target="_blank" href="https://www.cancerresearchuk.org/get-involved/donate">

@@ -8,6 +8,7 @@ export default function Logo({ src, alt }) {
             src={src}
             height="486"
             width="648"
+            fit="cover"
             alt={alt}
         />
     )

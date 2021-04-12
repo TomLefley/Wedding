@@ -8,6 +8,7 @@ export default function Photo({ src, alt }) {
             src={src}
             height="308"
             width="308"
+            fit="scale-down"
             alt={alt}
         />
     )

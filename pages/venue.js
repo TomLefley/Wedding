@@ -15,8 +15,10 @@ export default function Venue() {
     <Layout
       pageName="Venue"
     >
-      <h1>The Oak Tree of Peover</h1>
-      <p><em>"A beautiful oak frame venue, overlooking the cheshire countryside."</em></p>
+      <Stationery>
+        <h1>The Oak Tree of Peover</h1>
+        <p><em>"A beautiful oak frame venue, overlooking the cheshire countryside."</em></p>
+      </Stationery>
       <a target="_blank" href="https://www.oaktreeofpeover.co.uk">
           <Photo 
             src="/images/venue/venue_exterior.jpg"

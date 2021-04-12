@@ -67,7 +67,7 @@ export default function Venue() {
 
       <section>
           <Note>The dress code for both the wedding and evening reception is semi-formal; suits and dresses.</Note>
-          <Note>Unfornately, we cannot accomodate children during our wedding or evening reception.</Note>
+          <Note>Unfortunately, we cannot accomodate children during our wedding or evening reception.</Note>
       </section>
     </Layout>
   )
