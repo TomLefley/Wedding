@@ -2,6 +2,13 @@ body {
     background-color: #829C7E;
 }
 
+hr {
+    border: none;
+    height: 1px;
+    color: #444;
+    background-color: #444;
+}
+
 a.link-clean:link,
 a.link-clean:visited,
 a.link-clean:hover,
