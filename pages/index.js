@@ -11,7 +11,7 @@ export default function Home() {
       pageName="Home"
     >          
       <section>
-        <Stationery>
+        <Stationery foliage>
           <Name>Thomas Lefley</Name>
           <h2>{'&'}</h2>
           <Name>Tara Smith-Shelton</Name>

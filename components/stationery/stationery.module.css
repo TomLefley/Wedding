@@ -1,6 +1,7 @@
 .stationery,
 .stationery.card {
     text-align: center;
+    vertical-align: middle;
 
     margin: 2rem auto;
     padding: 1rem;
@@ -13,6 +14,15 @@
 
 .stationery.card {
     max-width: 18rem;
+}
+
+.stationery.foliage {
+    background-image: url("/images/stationery/green_foliage_top_left.jpeg"), url("/images/stationery/green_foliage_bottom_right.jpeg");
+    background-position: left top, right bottom;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+    padding: 20% 10%;
 }
 
 .description {
