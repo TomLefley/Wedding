@@ -58,7 +58,7 @@ export default function Menu({ reception }) {
         <Item
           heading="Dessert"
           title="A Trio of Desserts"
-          description="Lemon brulée tart, sticky toffee pudding, and Mobberly mess."
+          description="Lemon brulée tart, sticky toffee pudding, and Mobberley mess."
         />
       </Stationery>
     </section>

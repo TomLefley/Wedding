@@ -40,7 +40,7 @@ export default function Venue() {
               </address>
               <br/>
               <Note>No on-site accomodation.</Note>
-              <Note>Parking available, all vehicles to be retreived by 10am the following morning.</Note>
+              <Note>Parking available, all vehicles to be retrieved by 10am the following morning.</Note>
             </Left>
             <Right>
               <Map 

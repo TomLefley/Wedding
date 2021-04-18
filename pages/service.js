@@ -78,7 +78,7 @@ export default function Venue({ reception }) {
       {evening}
       <section>
           <Note>The dress code for {reception ? "our evening reception" : "both our wedding and evening reception"} is semi-formal; suits and dresses.</Note>
-          <Note>Unfortunately, we cannot accomodate children during {reception ? "our evening reception" : "our wedding or evening reception"}.</Note>
+          <Note>Unfortunately, we cannot accommodate children during {reception ? "our evening reception" : "our wedding or evening reception"}.</Note>
       </section>
     </Layout>
   )
