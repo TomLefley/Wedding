@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import Columns from '../components/columns/columns'
 import Item from '../components/stationery/item'
 import Layout from '../components/layout/layout'
@@ -10,10 +8,21 @@ import Photo from '../components/image/photo'
 import Right from '../components/columns/right'
 import Stationery from '../components/stationery/stationery'
 
-export default function Venue() {
+import {isReceptionRequest} from '../utils/utils'
+
+export async function getServerSideProps(context) {
+  return { 
+    props: { 
+      reception: isReceptionRequest(context) 
+    } 
+  }
+}
+
+export default function Venue({ reception }) {
   return (
     <Layout
       pageName="Venue"
+      reception={reception}
     >
       <Stationery>
         <h1>The Oak Tree of Peover</h1>

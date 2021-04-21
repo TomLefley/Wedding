@@ -3,10 +3,21 @@ import Name from '../components/name/name'
 import Photo from '../components/image/photo'
 import Stationery from '../components/stationery/stationery'
 
-export default function Home() {
+import {isReceptionRequest} from '../utils/utils'
+
+export async function getServerSideProps(context) {
+  return { 
+    props: { 
+      reception: isReceptionRequest(context) 
+    } 
+  }
+}
+
+export default function Home({ reception }) {
   return (
     <Layout
       pageName="Home"
+      reception={reception}
     >          
       <section>
         <Stationery foliage>

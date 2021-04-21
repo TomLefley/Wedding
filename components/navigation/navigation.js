@@ -5,16 +5,6 @@ import External from './route/external'
 
 import styles from './navigation.module.css'
 
-import {isReceptionRequest} from '../../utils/utils'
-
-export async function getServerSideProps(context) {
-  return { 
-    props: { 
-      reception: isReceptionRequest(context) 
-    } 
-  }
-}
-
 export default function Navigation({ currentPage, reception }) {
     return (
         <header className={styles.header}>

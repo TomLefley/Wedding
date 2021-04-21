@@ -6,10 +6,21 @@ import Logo from '../components/image/logo'
 import Right from '../components/columns/right'
 import Stationery from '../components/stationery/stationery'
 
-export default function Gifts() {
+import {isReceptionRequest} from '../utils/utils'
+
+export async function getServerSideProps(context) {
+  return { 
+    props: { 
+      reception: isReceptionRequest(context) 
+    } 
+  }
+}
+
+export default function Gifts({ reception }) {
   return (
     <Layout
         pageName="Gifts"
+        reception={reception}
     >
         <Stationery>
             <h1>Gifting</h1>

@@ -13,7 +13,7 @@ export async function getServerSideProps(context) {
   }
 }
 
-export default function Venue({ reception }) {
+export default function Service({ reception }) {
   let wedding = !reception &&
     <section>
       <Stationery
@@ -73,6 +73,7 @@ export default function Venue({ reception }) {
   return (
     <Layout
       pageName="Service"
+      reception={reception}
     >
       {wedding}
       {evening}

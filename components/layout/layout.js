@@ -5,7 +5,7 @@ import Navigation from '../navigation/navigation'
 
 import styles from './layout.module.css'
 
-export default function Layout({ pageName, children }) {
+export default function Layout({ pageName, reception, children }) {
     return (
         <div className={styles.layout}>
             <Head>
@@ -13,6 +13,7 @@ export default function Layout({ pageName, children }) {
             </Head>
             <Navigation
                 currentPage={pageName}
+                reception={reception}
             />
             <div className={styles.content}>
                 {children}

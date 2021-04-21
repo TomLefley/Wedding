@@ -84,6 +84,7 @@ export default function Menu({ reception }) {
   return (
     <Layout
       pageName="Menu"
+      reception={reception}
     >
       {canapes}
       {breakfast}
