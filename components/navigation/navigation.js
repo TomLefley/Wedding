@@ -5,7 +5,17 @@ import External from './route/external'
 
 import styles from './navigation.module.css'
 
-export default function Navigation({ currentPage }) {
+import {isReceptionRequest} from '../../utils/utils'
+
+export async function getServerSideProps(context) {
+  return { 
+    props: { 
+      reception: isReceptionRequest(context) 
+    } 
+  }
+}
+
+export default function Navigation({ currentPage, reception }) {
     return (
         <header className={styles.header}>
             <div className={styles.bar}>
@@ -35,7 +45,7 @@ export default function Navigation({ currentPage }) {
                     currentPage={currentPage}
                 />
                 <External
-                    url="https://weddings.papier.com/tom-tara/rsvp-070821"
+                    url={reception ? "https://weddings.papier.com/tom-tara/rsvp-070821-reception" : "https://weddings.papier.com/tom-tara/rsvp-070821"}
                     name="RSVP"
                 />
             </div>
