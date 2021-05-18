@@ -34,7 +34,7 @@ export default function Service({ reception }) {
           note="Canapés, photographs, and lawn games."
         />
         <Item
-          heading="16:00"
+          heading="17:00"
           title="Breakfast"
         />
       </Stationery>

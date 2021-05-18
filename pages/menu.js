@@ -34,7 +34,11 @@ export default function Menu({ reception }) {
         />
         <Item
           title="Spring Rolls"
-          description="Vegetarian spring rolls with a hoisin dip."
+          description="Vegetable spring rolls with a hoisin dip."
+        />
+        <Item
+          title="Pakoras"
+          description="Vegetable pakoras with a mint yoghurt dip."
         />
       </Stationery>
     </section>
@@ -71,7 +75,7 @@ export default function Menu({ reception }) {
         <Item
           heading="Food"
           title="Buffet"
-          description="A wide selection of breads, meats, and cheeses."
+          description="A five-tiered cheese tower accompanied by breads, meats, and other savoury bites."
         />
         <Item
           heading="Drinks"
