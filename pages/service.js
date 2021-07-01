@@ -65,7 +65,7 @@ export default function Service({ reception }) {
         />
         <Item
           heading="24:00"
-          title="Departures"
+          title="Departures."
         />
       </Stationery>
     </section>
