@@ -73,9 +73,14 @@ export default function Menu({ reception }) {
         card
       >
         <Item
-          heading="Food"
+          heading="Main"
           title="Buffet"
           description="A five-tiered cheese tower accompanied by breads, meats, and other savoury bites."
+        />
+        <Item
+          heading="Dessert"
+          title="Hyacinth ice cream trike"
+          description="Serving a selection of Marshfield handmade, real dairy ice cream, and quality fruit sorbets."
         />
         <Item
           heading="Drinks"
