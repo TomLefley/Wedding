@@ -61,7 +61,7 @@ export default function Service({ reception }) {
         <Item
           heading="21:30"
           title="Live music"
-          description="Electric set and disco"
+          description="Electric set and disco."
         />
         <Item
           heading="24:00"
