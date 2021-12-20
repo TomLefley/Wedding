@@ -34,10 +34,9 @@ export default function Navigation({ currentPage, reception }) {
                     name="Gifts"
                     currentPage={currentPage}
                 />
-                <Route
+                <External
                     path="/photos"
                     name="Photos"
-                    currentPage={currentPage}
                 />
             </div>
             <hr/>
