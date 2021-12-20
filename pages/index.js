@@ -30,7 +30,7 @@ export default function Home({ reception }) {
       </section>
       <section>
         <Photo
-          src="/images/couple/preshoot_perry.jpg"
+          src="/images/couple/icon_studio_walking.jpg"
           alt="The happy couple"
         />
       </section>

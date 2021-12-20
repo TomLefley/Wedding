@@ -35,7 +35,7 @@ export default function Navigation({ currentPage, reception }) {
                     currentPage={currentPage}
                 />
                 <External
-                    path="/photos"
+                    url="/photos"
                     name="Photos"
                 />
             </div>
