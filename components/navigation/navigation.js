@@ -34,9 +34,10 @@ export default function Navigation({ currentPage, reception }) {
                     name="Gifts"
                     currentPage={currentPage}
                 />
-                <External
-                    url={reception ? "https://weddings.papier.com/tom-tara/rsvp-070821-reception" : "https://weddings.papier.com/tom-tara/rsvp-070821"}
-                    name="RSVP"
+                <Route
+                    path="/photos"
+                    name="Photos"
+                    currentPage={currentPage}
                 />
             </div>
             <hr/>
